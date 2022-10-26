@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Author: Rachel
+#Date: Oct 25 2022
+
+### -----docker installation on centos7----
+
+echo "docker will begin installation, this will take a few min"
+sleep 3
+
+sudo yum install -y yum-utils
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+sudo yum list docker-ce --showduplicates | sort -r
+sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io d
+ocker-compose-plugin -y
+sudo systemctl start dockersudo docker run hello-world
+sleep 3
+echo "docker installation is now complete"
