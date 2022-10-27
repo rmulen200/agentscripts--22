@@ -1,7 +1,7 @@
 #!/bin/bash
 
     #Author : Rachel
-    #Date : Oct-25-2022
+    #Date : Oct-26-2022
 
 ## ---------- script that Install some packages in Linux -----------------
 
