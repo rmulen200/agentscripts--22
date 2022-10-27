@@ -5,11 +5,15 @@
 
 ## ---------- script that Install some packages in Linux -----------------
 
-yum install finger -y
-yum install gcc -y
-yum install make -y
-yum install python3 -y
-yum install epel-release -y
-yum install git -y
+
+sudo yum install wget -y 
+sudo yum install net-utils -y
+sudo yum install sysstat -y
+sudo yum install finger -y
+sudo yum install gcc -y
+sudo yum install make -y
+sudo yum install python3 -y
+sudo yum install epel-release -y
+sudo yum install git -y
 
 echo "installation is now completed"
